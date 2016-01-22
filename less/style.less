@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-color: transparent;
 	.navbar-brand {
 		color: @brand-primary;
-		.script-font;
+		.heading-font();
         &:hover,
         &:focus,
         &:active,
@@ -114,6 +114,7 @@ h1, h2, h3, h4, h5, h6 {
     			font-weight: 400;
     			letter-spacing: 1px;
     			color: white;
+					transition: ease 0.2s;
     			&:hover,
     			&:focus {
     				color: @brand-primary;
@@ -162,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-	background-image: url('//www.edsi.co.uk/wp-content/uploads/2014/08/Sheffield-Engineering.png');
+	background-image: url('../img/header-bg.png');
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
