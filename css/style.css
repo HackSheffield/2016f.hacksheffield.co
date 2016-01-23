@@ -197,6 +197,19 @@ fieldset[disabled] .btn-xl.active {
   color: white;
   background-color: #0089bc;
 }
+.navbar-default .container {
+  position: relative;
+}
+.navbar-default #mlh-trust-badge {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  max-width: 100px;
+  width: 10%;
+  min-width: 60px;
+  display: block;
+  z-index: 10000;
+}
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
@@ -214,6 +227,17 @@ fieldset[disabled] .btn-xl.active {
   }
   .navbar-default .navbar-nav > .active > a {
     border-radius: 3px;
+  }
+  .navbar-default #mlh-trust-badge {
+    position: absolute;
+    right: 0;
+    top: -26px;
+  }
+  .navbar-default .mlh-spacer {
+    width: 110px;
+  }
+  .navbar-default.navbar-shrink #mlh-trust-badge {
+    top: -11px;
   }
   .navbar-default.navbar-shrink {
     background-color: #222;
@@ -303,9 +327,12 @@ section h3.section-subheading {
     padding: 150px 0;
   }
 }
-.service-heading {
+.sponsor-heading {
   margin: 15px 0;
   text-transform: none;
+}
+img.sponsor {
+  width: 100%;
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
