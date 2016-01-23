@@ -49,6 +49,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
+figcaption {
+  padding: 5px;
+}
+
 .img-centered {
 	margin: 0 auto;
 }
@@ -59,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .bg-darkest-gray {
 	background-color: @gray-darkest;
+	color: @gray-lighter;
 }
 
 // Restyled Primary Buttons
@@ -142,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
         padding: 25px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
-        transition: padding 0.3s;
+        transition: ease 0.5s;
         border: none;
 	    .navbar-brand {
 	        font-size: 2em;

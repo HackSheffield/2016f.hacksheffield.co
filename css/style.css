@@ -40,6 +40,9 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
+figcaption {
+  padding: 5px;
+}
 .img-centered {
   margin: 0 auto;
 }
@@ -48,6 +51,7 @@ h6 {
 }
 .bg-darkest-gray {
   background-color: #222;
+  color: #f7f7f7;
 }
 .btn-primary {
   color: white;
@@ -195,7 +199,7 @@ fieldset[disabled] .btn-xl.active {
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
-    transition: padding 0.3s;
+    transition: ease 0.5s;
     border: none;
   }
   .navbar-default .navbar-brand {
