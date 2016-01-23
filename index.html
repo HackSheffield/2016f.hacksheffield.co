@@ -86,12 +86,12 @@
             <div class="intro-text">
                 <div class="intro-lead-in">19th - 20th March 2016 <small>(TBC)</small></div>
                 <div class="intro-heading">HackSheffield Beta</div>
-                <form class="form-inline">
+                <form id="register-interest" class="form-inline">
                     <div class="form-group">
-                        <label for="user-email" class="sr-only">Email</label>
-                        <input type="email" class="form-control input-lg" id="user-email" placeholder="name@domain.com">
+                        <label for="user_email" class="sr-only">Email</label>
+                        <input name="user_email" type="text" class="form-control input-lg" id="user_email" placeholder="name@domain.com">
                     </div>
-                    <button type="submit" class="btn btn-lg btn-primary" data-loading-text="Signing up...">I'm interested!</button>
+                    <button type="submit" class="btn btn-lg btn-primary">I'm interested!</button>
                 </form>
             </form>
             </div>
@@ -282,6 +282,7 @@
 
     <!-- Page JavaScript -->
     <script src="js/main.js"></script>
+    <script src="js/registerInterest.js"></script>
 
     <!-- Google Analytics -->
     <script>
