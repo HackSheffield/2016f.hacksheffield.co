@@ -250,6 +250,10 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
 }
+header .intro-text .intro-heading img {
+  height: 30vh;
+  margin: 0 auto;
+}
 header .intro-text form.form-inline .form-group,
 header .intro-text form.form-inline button {
   min-width: 30%;
