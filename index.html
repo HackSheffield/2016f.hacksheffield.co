@@ -120,7 +120,8 @@
                         <i class="fa fa-2x fa-fw fa-wifi"></i>
                         <i class="fa fa-2x fa-fw fa-cutlery"></i>
                         <i class="fa fa-2x fa-fw fa-medkit"></i>
-                        <i class="fa fa-2x fa-fw fa-wheelchair"></i></p>
+                        <i class="fa fa-2x fa-fw fa-wheelchair"></i>
+                    </p>
                 </div>
                 <div class="col-md-6">
                     <figure class="text-right">
@@ -421,7 +422,7 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <li><a href="https://twitter.com/hack_sheffield" target="_blank"><i class="fa fa-twitter"></i></a>
                         </li>
                         <li><a href="https://www.facebook.com/HackSheffield" target="_blank"><i class="fa fa-facebook"></i></a>
                         </li>
@@ -431,9 +432,9 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li>
-                            <a href="contact.html" data-toggle="modal">Contact</a>
-                        </li>
+                        <!--<li>-->
+                            <!--<a href="contact.html" data-toggle="modal">Contact</a>-->
+                        <!--</li>-->
                         <li>
                             <a class="page-scroll" href="#page-top"><i class="fa fa-chevron-up"></i></a>
                         </li>
@@ -458,7 +459,13 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
+    <!-- Page JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/registerInterest.js"></script>
+
     <!-- Google Maps API -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD131Tz6qxEDqudIugAR7tqC8l6QahsT3E&callback=initMap">
+    </script>
     <script type="text/javascript">
 
         var map;
@@ -468,15 +475,15 @@
                 lng: -1.481796
             }
             var center_loc = {
-                lat: diamond.lat + 0.05,
-                lng: diamond.lng
-            },
-            map = new google.maps.Map(document.getElementById('map'), {
-                center: center_loc,
-                zoom: 16,
-                streetViewControl: !1,
-                scrollwheel: false
-            });
+                        lat: diamond.lat + 0.05,
+                        lng: diamond.lng
+                    },
+                    map = new google.maps.Map(document.getElementById('map'), {
+                        center: center_loc,
+                        zoom: 16,
+                        streetViewControl: !1,
+                        scrollwheel: false
+                    });
 
             var contentString = '<div id="content">'+
                     '<h2 id="firstHeading" class="firstHeading">The Diamond<span class="hidden-xs">, University of Sheffield</span></h2>'+
@@ -506,12 +513,6 @@
         });
 
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD131Tz6qxEDqudIugAR7tqC8l6QahsT3E&callback=initMap">
-    </script>
-
-    <!-- Page JavaScript -->
-    <script src="js/main.js"></script>
-    <script src="js/registerInterest.js"></script>
 
     <!-- Google Analytics -->
     <script>
