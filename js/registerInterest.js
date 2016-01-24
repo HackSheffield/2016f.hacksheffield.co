@@ -22,7 +22,7 @@ $("#register-interest").submit(function(event){
     // Disabled form elements will not be serialized.
     $inputs.prop("disabled", true);
 
-    // Fire off the request to /form.php
+    // Fire off the request to server side script
     request = $.ajax({
         url: "https://script.google.com/macros/s/AKfycbw9TOM8szVrk0UulDbeTMWl7neuP7UHA21QKLgocglP5P0NzR8/exec",
         type: "post",
