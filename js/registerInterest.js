@@ -33,6 +33,8 @@ $("#register-interest").submit(function(event){
     request.done(function (response, textStatus, jqXHR){
         // Log a message to the console
         console.log("Hooray, it worked!");
+        $form.collapse();
+        $('.alertArea').collapse();
     });
 
     // Callback handler that will be called on failure
@@ -54,3 +56,38 @@ $("#register-interest").submit(function(event){
     // Prevent default posting of form
     event.preventDefault();
 });
+
+
+
+
+
+
+
+
+//// process the form
+//$('#register-interest').submit(function (event) {
+//    var form = $(this);
+//    form.find('input[type=email]').removeClass("has-error has-success animated shake");
+//
+//    var btn = form.find('button[type=submit]');
+//    btn.prop('disable', true);
+//
+//    // get the form data
+//    var serializedData = $form.serialize();
+//
+//    // process the form
+//    $.ajax({
+//            url: "https://script.google.com/macros/s/AKfycbw9TOM8szVrk0UulDbeTMWl7neuP7UHA21QKLgocglP5P0NzR8/exec",
+//            type: "post",
+//            data: serializedData
+//        })
+//        // using the done promise callback
+//        .done(function (data) {
+//            log(data);
+//            //btn.prop('disable', false);
+//        });
+//
+//
+//    // stop the form from submitting the normal way and refreshing the page
+//    event.preventDefault();
+//});

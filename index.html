@@ -90,13 +90,24 @@
             <div class="intro-text">
                 <div class="intro-heading"><img class="img-responsive" src="img/logo_white.svg" alt="HackSheffield"></div>
                 <div class="intro-lead-in">19th - 20th March 2016 <small>(TBC)</small></div>
-                <form id="register-interest" class="form-inline">
+                <form id="register-interest" class="form-inline collapse in">
                     <div class="form-group">
                         <label for="user_email" class="sr-only">Email</label>
-                        <input name="user_email" type="text" class="form-control input-lg" id="user_email" placeholder="ilovehacking@domain.io">
+                        <input name="user_email" type="email" class="form-control input-lg" id="user_email" placeholder="ilovehacking@domain.io">
                     </div>
                     <button type="submit" class="btn btn-lg btn-primary">I'm interested!</button>
                 </form>
+                <div class="alertArea collapse">
+                    <br>
+                    <div style="max-width: 600px; margin: 0 auto;" class="alert alert-success" role="alert">
+                        <p><b>Success! We'll let you know.</b></p>
+                        <p>Meanwhile, why not tell your friends or colleagues you just registered for updates?</p>
+                        <p>
+                            <a target="_blank" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fhacksheffield.co&via=Hack_Sheffield&text=I%27m+going+to+HackSheffield%21+Are+you%3F&hashtags=HackSheffield"><i class="fa fa-fw fa-3x fa-twitter"></i></a>
+                            <a target="_blank"  href="http://www.facebook.com/sharer.php?u=https://hacksheffield.co"><i class="fa fa-fw fa-3x fa-facebook"></i></a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -532,10 +543,6 @@
 
             infowindow.open(map, marker);
         }
-
-        $( document ).ready(function() {
-            initMap();
-        });
 
     </script>
 
