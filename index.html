@@ -115,6 +115,7 @@
                 <div class="col-md-6">
                     <h4>The Diamond</h4>
                     <p>An £81m investment by the university, opened last year, it is a state of the art engineering facility which will accommodate HackSheffield.</p>
+                    <br>
                     <p class="text-center"><i class="fa fa-2x fa-fw fa-bolt"></i>
                         <i class="fa fa-2x fa-fw fa-wifi"></i>
                         <i class="fa fa-2x fa-fw fa-cutlery"></i>
@@ -193,7 +194,8 @@
             </div>
             <div class="row text-center">
                 <div class="col-xs-12">
-                    <img class="img-responsive sponsor" src="img/logos/wordpress.jpg">
+                    <p class="text-muted">Sponsor us! See below.</p>
+                    <!--<img class="img-responsive sponsor" src="img/logos/wordpress.jpg">-->
                 </div>
             </div>
             <!-- Giga Sponsors -->
@@ -201,54 +203,65 @@
                 <h3>Giga</h3>
             </div>
             <div class="row text-center">
-                <div class="col-xs-6">
-                    <img class="img-responsive sponsor" src="img/logos/wordpress.jpg">
+                <div class="col-xs-12">
+                    <p class="text-muted">Sponsor us! See below.</p>
                 </div>
-                <div class="col-xs-6">
-                    <img class="img-responsive sponsor" src="img/logos/envato.jpg">
-                </div>
+                <!--<div class="col-xs-6">-->
+                    <!--<img class="img-responsive sponsor" src="img/logos/wordpress.jpg">-->
+                <!--</div>-->
+                <!--<div class="col-xs-6">-->
+                    <!--<img class="img-responsive sponsor" src="img/logos/envato.jpg">-->
+                <!--</div>-->
             </div>
             <!-- Mega Sponsors -->
             <div class="row text-center">
                 <h3>Mega</h3>
             </div>
             <div class="row text-center">
-                <div class="col-xs-4">
-                    <img class="img-responsive sponsor" src="img/logos/wordpress.jpg">
+                <div class="col-xs-12">
+                    <p class="text-muted">Sponsor us! See below.</p>
                 </div>
-                <div class="col-xs-4">
-                    <img class="img-responsive sponsor" src="img/logos/envato.jpg">
-                </div>
-                <div class="col-xs-4">
-                    <img class="img-responsive sponsor" src="img/logos/aetuts.jpg">
-                </div>
+                <!--<div class="col-xs-4">-->
+                    <!--<img class="img-responsive sponsor" src="img/logos/wordpress.jpg">-->
+                <!--</div>-->
+                <!--<div class="col-xs-4">-->
+                    <!--<img class="img-responsive sponsor" src="img/logos/envato.jpg">-->
+                <!--</div>-->
+                <!--<div class="col-xs-4">-->
+                    <!--<img class="img-responsive sponsor" src="img/logos/aetuts.jpg">-->
+                <!--</div>-->
             </div>
             <!-- Kilo Sponsors -->
             <div class="row text-center">
                 <h3>Kilo</h3>
             </div>
             <div class="row text-center">
-                <div class="col-xs-3">
-                    <img class="img-responsive sponsor" src="img/logos/wordpress.jpg">
+                <div class="col-xs-12">
+                    <p class="text-muted">Sponsor us! See below.</p>
                 </div>
-                <div class="col-xs-3">
-                    <img class="img-responsive sponsor" src="img/logos/envato.jpg">
-                </div>
-                <div class="col-xs-3">
-                    <img class="img-responsive sponsor" src="img/logos/aetuts.jpg">
-                </div>
-                <div class="col-xs-3">
-                    <img class="img-responsive sponsor" src="img/logos/themeforest.jpg">
-                </div>
+                <!--<div class="col-xs-3">-->
+                    <!--<img class="img-responsive sponsor" src="img/logos/wordpress.jpg">-->
+                <!--</div>-->
+                <!--<div class="col-xs-3">-->
+                    <!--<img class="img-responsive sponsor" src="img/logos/envato.jpg">-->
+                <!--</div>-->
+                <!--<div class="col-xs-3">-->
+                    <!--<img class="img-responsive sponsor" src="img/logos/aetuts.jpg">-->
+                <!--</div>-->
+                <!--<div class="col-xs-3">-->
+                    <!--<img class="img-responsive sponsor" src="img/logos/themeforest.jpg">-->
+                <!--</div>-->
             </div>
-            <!-- Kilo Sponsors -->
+            <!-- Sponsor Us -->
             <div class="row text-center">
                 <h3>Interested in sponsoring HackSheffield?</h3>
                 <p>Send an e-mail to <a href="mailto:sponsor@hacksheffield.co">sponsor@hacksheffield.co</a> to find out more.</p>
             </div>
             <!-- Partners -->
-            <div class="row text-center">
-                <h2>Partners</h2>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Partners</h2>
+                </div>
             </div>
             <div class="row text-center">
                 <div class="col-sm-4 col-sm-offset-2">
@@ -348,8 +361,8 @@
         var map;
         function initMap() {
             var diamond = {
-                lat: 53.3815906,
-                lng: -1.4839796
+                lat: 53.381584,
+                lng: -1.481796
             }
             var center_loc = {
                 lat: diamond.lat + 0.05,
@@ -363,7 +376,7 @@
             });
 
             var contentString = '<div id="content">'+
-                    '<h2 id="firstHeading" class="firstHeading">The Diamond, University of Sheffield</h2>'+
+                    '<h2 id="firstHeading" class="firstHeading">The Diamond<span class="hidden-xs">, University of Sheffield</span></h2>'+
                     '<div id="bodyContent">'+
                     '<p><b>Address</b><br />' +
                     '32 Leavygreave Rd<br>' +
