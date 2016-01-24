@@ -160,6 +160,26 @@ fieldset[disabled] .btn-xl.active {
   color: #00aeef;
   background-color: white;
 }
+.table-inverted.table > thead > tr > th,
+.table-inverted.table > tbody > tr > th,
+.table-inverted.table > tfoot > tr > th,
+.table-inverted.table > thead > tr > td,
+.table-inverted.table > tbody > tr > td,
+.table-inverted.table > tfoot > tr > td {
+  border-top: 1px solid #222222;
+}
+.table-inverted.table > thead > tr > th {
+  border-bottom: 2px solid #222222;
+}
+.table-inverted.table > tbody + tbody {
+  border-top: 2px solid #222222;
+}
+.table-inverted.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #060606;
+}
+.table-inverted.table-hover > tbody > tr:hover {
+  background-color: #0a0a0a;
+}
 .navbar-default {
   background-color: #222;
   border-color: transparent;
