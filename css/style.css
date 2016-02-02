@@ -180,7 +180,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
-  padding: 0;
+  padding: 2px;
   color: #00aeef;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
@@ -289,10 +289,9 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
-}
-header .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -321,10 +320,6 @@ header .intro-text form.form-inline .form-group input {
   text-align: center;
 }
 @media (min-width: 768px) {
-  header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
-  }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
