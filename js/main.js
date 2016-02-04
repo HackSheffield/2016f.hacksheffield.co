@@ -33,8 +33,8 @@ function initMap() {
     var diamond = {
         lat: 53.381584,
         lng: -1.481796
-    }
-    var center_loc = {
+    },
+        center_loc = {
             lat: diamond.lat + 0.05,
             lng: diamond.lng
         },
@@ -42,7 +42,12 @@ function initMap() {
             center: center_loc,
             zoom: 16,
             streetViewControl: !1,
-            scrollwheel: false
+            scrollwheel: false,
+            panControl: !1,
+            zoomControl: !0,
+            mapTypeControl: !0,
+            scaleControl: !1,
+            overviewMapControl: !1
         });
 
     var contentString = '<div id="content">'+
