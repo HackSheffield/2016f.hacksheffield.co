@@ -71,6 +71,8 @@ function initMap() {
     });
 
     infowindow.open(map, marker);
+    map.setCenter(center_loc);
+
 }
 
 // Google Analytics
