@@ -33,7 +33,7 @@ gulp.task('server', function () {
     run('sudo python -m SimpleHTTPServer 80').exec();
 });
 
-gulp.task('optimize-images', function () {
+gulp.task('optimise-images', function () {
     return gulp
         .src('img/*.jpg')
         .pipe(imagemin({
@@ -43,7 +43,7 @@ gulp.task('optimize-images', function () {
             }],
             use: [pngquant()]
         }))
-        .pipe(gulp.dest('./img/optimized'));
+        .pipe(gulp.dest('./img/optimised'));
 });
 
 gulp.task('minify-css', function () {
@@ -72,5 +72,5 @@ gulp.task('watch', function () {
     gulp.watch('css/*.scss', ['sass']);
     gulp.watch('css/*.css', ['minify-css']);
     gulp.watch('css/*.less', ['less']);
-    gulp.watch('img/*.*', ['optimize-images']);
+    gulp.watch('img/*.*', ['optimise-images']);
 });
