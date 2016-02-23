@@ -293,6 +293,9 @@ header {
   display: flex;
   align-items: center;
 }
+header .banner-btns {
+  margin-top: 10px;
+}
 header .intro-text {
   padding-top: 50px;
   padding-bottom: 20px;
