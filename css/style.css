@@ -497,7 +497,7 @@ img.sponsor {
   z-index: 100;
   background-color: #00aeef;
   color: white;
-  border-radius: 100%;
+  border-radius: 10%;
   border: 7px solid #f1f1f1;
   text-align: center;
 }
