@@ -296,6 +296,9 @@ header {
 header .banner-btns {
   margin-top: 10px;
 }
+header .banner-btns a {
+  margin-top: 5px;
+}
 header .intro-text {
   padding-top: 50px;
   padding-bottom: 20px;
