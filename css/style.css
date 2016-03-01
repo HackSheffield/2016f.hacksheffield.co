@@ -282,7 +282,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background: #000 url('../img/optimised/header-bg.png') no-repeat scroll center center;
+  background: #000 url('../img/optimised/header-bg.gif') no-repeat scroll center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
