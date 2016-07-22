@@ -150,6 +150,64 @@
 			}
 		}
 
+		&.style-invert {
+			$fg-color: _palette(bg);
+			color: $fg-color;
+			$bg-color: #ffffff;
+			background-color: $bg-color;
+			@include wrapper-edges-color($bg-color);
+			h1, h2, h3, h4, h5, h6, a {
+				color: $fg-color;
+			}
+
+
+				a {
+					&:not(.special) {
+						border-bottom: dotted 1px $fg-color;
+					color: $fg-color;
+				}
+
+					&:hover {
+						color: $fg-color !important;
+					}
+
+					&.special:not(.button) {
+
+						&:before {
+							border: solid 2px rgba($fg-color, 0.8);
+						}
+
+						&:hover {
+							&:before {
+								background-color: $bg-color;
+							}
+						}
+
+						&:active {
+							&:before {
+								background-color: $bg-color;
+							}
+						}
+					}
+				}
+
+
+				strong, b {
+					color: $fg-color;
+				}
+				h1, h2, h3, h4, h5, h6 {
+					color: $fg-color;
+					a {
+						color: inherit;
+					}
+
+					&.major {
+						border-bottom: solid 2px $fg-color;
+					}
+				}
+
+		}
+
 		&.spotlight {
 			@include wrapper-edges-color(_palette(accent));
 			background-color: _palette(accent);

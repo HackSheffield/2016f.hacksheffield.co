@@ -2454,6 +2454,32 @@ body.is-menu-visible #menu {
     background-color: #2eb8f7; }
     .wrapper.style6:before, .wrapper.style6:after {
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232eb8f7%3B' /%3E%3C/svg%3E"); }
+  .wrapper.style-invert {
+    color: #0094D8;
+    background-color: #ffffff; }
+    .wrapper.style-invert:before, .wrapper.style-invert:after {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23ffffff%3B' /%3E%3C/svg%3E"); }
+    .wrapper.style-invert h1, .wrapper.style-invert h2, .wrapper.style-invert h3, .wrapper.style-invert h4, .wrapper.style-invert h5, .wrapper.style-invert h6, .wrapper.style-invert a {
+      color: #0094D8; }
+    .wrapper.style-invert a:not(.special) {
+      border-bottom: dotted 1px #0094D8;
+      color: #0094D8; }
+    .wrapper.style-invert a:hover {
+      color: #0094D8 !important; }
+    .wrapper.style-invert a.special:not(.button):before {
+      border: solid 2px rgba(0, 148, 216, 0.8); }
+    .wrapper.style-invert a.special:not(.button):hover:before {
+      background-color: #ffffff; }
+    .wrapper.style-invert a.special:not(.button):active:before {
+      background-color: #ffffff; }
+    .wrapper.style-invert strong, .wrapper.style-invert b {
+      color: #0094D8; }
+    .wrapper.style-invert h1, .wrapper.style-invert h2, .wrapper.style-invert h3, .wrapper.style-invert h4, .wrapper.style-invert h5, .wrapper.style-invert h6 {
+      color: #0094D8; }
+      .wrapper.style-invert h1 a, .wrapper.style-invert h2 a, .wrapper.style-invert h3 a, .wrapper.style-invert h4 a, .wrapper.style-invert h5 a, .wrapper.style-invert h6 a {
+        color: inherit; }
+      .wrapper.style-invert h1.major, .wrapper.style-invert h2.major, .wrapper.style-invert h3.major, .wrapper.style-invert h4.major, .wrapper.style-invert h5.major, .wrapper.style-invert h6.major {
+        border-bottom: solid 2px #0094D8; }
   .wrapper.spotlight {
     background-color: #004385; }
     .wrapper.spotlight:before, .wrapper.spotlight:after {
