@@ -2589,6 +2589,12 @@ body.is-menu-visible #menu {
       padding: 2em 1.5em 0.1em 1.5em ; } }
 
 /* Footer */
+.wrapper:last-of-type::after {
+  background-color: #0094D8; }
+
+#footer, #footer::before {
+  background-color: #0094D8; }
+
 #footer .inner {
   padding: 5em 0 3em 0 ;
   display: -moz-flex;
@@ -2637,7 +2643,6 @@ body.is-menu-visible #menu {
 @media screen and (max-width: 1280px) {
   #footer {
     background-color: #0094D8;
-    background-image: linear-gradient(to top, rgba(0, 148, 216, 0.8), rgba(0, 148, 216, 0.8)), url("../../images/bg.jpg");
     background-size: auto, cover;
     background-position: center, center;
     margin-top: -6.5em;
