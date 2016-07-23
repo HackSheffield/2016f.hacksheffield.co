@@ -16,6 +16,10 @@
 		xsmall:	'(max-width: 480px)'
 	});
 
+  skel.layout({
+    conditionals: true
+  });
+
 	$(function() {
 
 		var	$window = $(window),
