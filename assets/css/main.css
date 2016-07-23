@@ -1619,6 +1619,9 @@ input[type="radio"] + label:before {
     display: none; }
 
 /* Image */
+img.fit {
+  width: 100%; }
+
 .image {
   border-radius: 5px;
   border: 0;
