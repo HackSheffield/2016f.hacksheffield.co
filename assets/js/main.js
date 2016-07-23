@@ -173,7 +173,7 @@
             if (target.length) {
               $('html, body').animate({
                 scrollTop: target.offset().top - 40
-              }, 1000);
+              }, 400);
               return false;
             }
           }
