@@ -7,6 +7,7 @@
 /* Banner */
 
 	#banner {
+    text-align: center;
 		@include padding(10em, 0, (0, 0, _size(wrapper-edges, large) * -0.5, 0));
 
 		.inner {
@@ -22,6 +23,10 @@
 			@include vendor('transform', 'translateY(0)');
 			opacity: 1;
 			margin: 0 0 (_size(element-margin) * 0.65) 0;
+      img {
+        max-height: 30vh;
+        max-width: 100%;
+      }
 
 			.icon {
 				border-radius: 100%;

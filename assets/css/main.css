@@ -2225,6 +2225,7 @@ body.is-menu-visible #menu {
 
 /* Banner */
 #banner {
+  text-align: center;
   padding: 10em 0 4.75em 0 ; }
   #banner .inner {
     margin: 0 auto;
@@ -2240,6 +2241,9 @@ body.is-menu-visible #menu {
     transform: translateY(0);
     opacity: 1;
     margin: 0 0 1.3em 0; }
+    #banner .logo img {
+      max-height: 30vh;
+      max-width: 100%; }
     #banner .logo .icon {
       border-radius: 100%;
       border: solid 2px rgba(255, 255, 255, 0.125);
