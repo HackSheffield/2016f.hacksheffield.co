@@ -2715,3 +2715,7 @@ a#mlh-trust-badge {
   @media screen and (max-width: 640px) {
     a#mlh-trust-badge {
       right: 50px; } }
+
+#mlh-badge-spacer {
+  visibility: hidden;
+  width: 125px; }
