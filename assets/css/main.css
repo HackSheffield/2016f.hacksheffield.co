@@ -2356,6 +2356,17 @@ body.is-menu-visible #menu {
     -ms-filter: blur(2px);
     filter: blur(2px); }
 
+video.fullscreen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%); }
+
 /* Wrapper */
 #wrapper > header {
   padding: 11em 0 2.25em 0 ; }
