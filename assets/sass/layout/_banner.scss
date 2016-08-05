@@ -152,6 +152,8 @@
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: -100;
     transform: translate(-50%, -50%);
+    &::-webkit-media-controls, &::-webkit-media-controls-start-playback-button {
+      display:none !important;
+    }
   }
