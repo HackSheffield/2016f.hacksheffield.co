@@ -91,7 +91,7 @@
 		<section id="wrapper">
 
 			<!-- One -->
-			<section id="about" class="wrapper style1">
+			<section id="about" class="wrapper style1 before-map">
 				<div class="inner">
 					<div class="content">
 						<h2 class="major">About</h2>
@@ -112,7 +112,12 @@
 			</section>
 
 			<!-- Two -->
-			<section id="register" class="wrapper alt spotlight style2">
+			<section id="map" class="wrapper">
+        <div id="map-div" class="map-fullwidth"></div>
+			</section>
+
+			<!-- Two -->
+			<section id="register" class="wrapper alt spotlight style2 after-map">
 				<div class="inner">
 					<div class="content">
 						<h2 class="major">Register</h2>
@@ -161,12 +166,8 @@
 				</div>
 			</section>
 
-			<!-- Two -->
-			<section id="map" class="wrapper">
-			</section>
-
 			<!-- Three -->
-			<section id="schedule" class="wrapper alt style3">
+			<section id="schedule" class="wrapper style3">
 				<div class="inner">
 					<div class="content">
 						<h2 class="major">Schedule</h2>
@@ -270,7 +271,7 @@
 			</section>
 
 			<!-- Four -->
-			<section id="team" class="wrapper style1">
+			<section id="team" class="wrapper alt style1">
 				<div class="inner">
 					<h2 class="major">The HackSheffield Team</h2>
 					<section class="special">
@@ -365,7 +366,7 @@
 			</section>
 
 			<!-- Three -->
-			<section id="sponsor" class="wrapper alt style-invert">
+			<section id="sponsor" class="wrapper style-invert">
 				<div class="inner">
 					<div class="content">
 						<h2 class="major">Sponsors</h2>
@@ -392,7 +393,7 @@
 			</section>
 
 			<!-- Three -->
-			<section id="faq" class="wrapper style4">
+			<section id="faq" class="wrapper alt style4">
 				<div class="inner">
 					<div class="content">
 						<h2 class="major">Frequently Asked Questions</h2>
@@ -516,6 +517,10 @@
   "url": "https://www.hacksheffield.co/"
 }
 </script>
+
+
+  <script src="assets/js/google-map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwyhdsfj0X4bT8Mp-OU2ixIiaMQnq8G7g&libraries=places&callback=initMap" async defer></script>
 
 </body>
 

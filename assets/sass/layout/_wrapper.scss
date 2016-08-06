@@ -239,7 +239,6 @@
 			&:nth-child(2n - 1) {
 				.inner {
 					@include vendor('flex-direction', 'row-reverse');
-					text-align: right;
 				}
 
 				.image {

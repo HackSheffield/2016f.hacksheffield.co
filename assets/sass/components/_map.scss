@@ -1,0 +1,29 @@
+section.wrapper {
+  &.before-map:after, &.after-map:before {
+    display: none;
+  }
+  &#map {
+    &,
+    &::after,
+    &::before {
+        background: none;
+        content: none !important;
+    }
+    margin: -6.5em 0;
+    z-index: 0;
+    div.map-fullwidth {
+      position: relative;
+      min-width: 100%;
+      width: auto;
+      min-height: 400px;
+      height: 50vh;
+      div.mapInfoWindow {
+        &,
+        a,
+        a:hover {
+          color: _palette(accent);
+        }
+      }
+    }
+  }
+}
