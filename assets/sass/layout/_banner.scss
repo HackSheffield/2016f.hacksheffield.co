@@ -146,7 +146,7 @@
 	}
 
   video.fullscreen {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     min-width: 100%;
@@ -154,7 +154,6 @@
     width: auto;
     height: auto;
     transform: translate(-50%, -50%);
-    z-index: -500;
     &::-webkit-media-controls, &::-webkit-media-controls-start-playback-button {
       display:none !important;
     }
