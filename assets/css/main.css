@@ -1427,8 +1427,11 @@ section.wrapper#map {
     height: 50vh; }
     section.wrapper#map div.map-fullwidth div.mapInfoWindow,
     section.wrapper#map div.map-fullwidth div.mapInfoWindow a,
-    section.wrapper#map div.map-fullwidth div.mapInfoWindow a:hover {
+    section.wrapper#map div.map-fullwidth div.mapInfoWindow a:hover,
+    section.wrapper#map div.map-fullwidth div.mapInfoWindow strong {
       color: #004385; }
+    section.wrapper#map div.map-fullwidth div.mapInfoWindow .view-link a {
+      font-style: italic; }
 
 /* Form */
 form {

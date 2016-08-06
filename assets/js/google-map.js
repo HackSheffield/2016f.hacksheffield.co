@@ -30,7 +30,7 @@ function initMap() {
       });
       google.maps.event.addListener(marker, 'click', function() {
         infowindow.setContent(
-          '<div class="mapInfoWindow"><div class="title">' + place.name + '</div><div class="address">' +
+          '<div class="mapInfoWindow"><strong>' + place.name + '</strong><div class="address">' +
           place.formatted_address + '</div>' + '<div class="view-link"><a target="_blank" ' +
           'href="' + place.url + '">View on Google Maps</a></div></div>'
         );
