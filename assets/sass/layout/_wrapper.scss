@@ -160,12 +160,13 @@
 				color: $fg-color;
 			}
 
-
 				a {
 					&:not(.special) {
-						border-bottom: dotted 1px $fg-color;
-					color: $fg-color;
-				}
+            &:not(.image-link) {
+  						border-bottom: dotted 1px $fg-color;
+            }
+            color: $fg-color;
+				  }
 
 					&:hover {
 						color: $fg-color !important;
@@ -174,7 +175,9 @@
 					&.special:not(.button) {
 
 						&:before {
-							border: solid 2px rgba($fg-color, 0.8);
+              &:not(.image-link) {
+  							border: solid 2px rgba($fg-color, 0.8);
+              }
 						}
 
 						&:hover {

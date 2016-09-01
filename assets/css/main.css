@@ -1304,6 +1304,8 @@ a {
       background-color: rgba(255, 255, 255, 0.025); }
     a.special:not(.button):active:before {
       background-color: rgba(255, 255, 255, 0.075); }
+  a.image-link {
+    border-bottom: solid 0px; }
 
 strong, b {
   color: #ffffff;
@@ -2507,11 +2509,12 @@ video.fullscreen {
     .wrapper.style-invert h1, .wrapper.style-invert h2, .wrapper.style-invert h3, .wrapper.style-invert h4, .wrapper.style-invert h5, .wrapper.style-invert h6, .wrapper.style-invert a {
       color: #0094D8; }
     .wrapper.style-invert a:not(.special) {
-      border-bottom: dotted 1px #0094D8;
       color: #0094D8; }
+      .wrapper.style-invert a:not(.special):not(.image-link) {
+        border-bottom: dotted 1px #0094D8; }
     .wrapper.style-invert a:hover {
       color: #0094D8 !important; }
-    .wrapper.style-invert a.special:not(.button):before {
+    .wrapper.style-invert a.special:not(.button):before:not(.image-link) {
       border: solid 2px rgba(0, 148, 216, 0.8); }
     .wrapper.style-invert a.special:not(.button):hover:before {
       background-color: #ffffff; }
