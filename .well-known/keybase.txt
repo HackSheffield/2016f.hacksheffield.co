@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/dannycjones
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hack.sheffield.ac.uk
+  * I am dannycjones (https://keybase.io/dannycjones) on keybase.
+  * I have a public key ASDEcdspZKj73gUaEZ40ryBrnpGmOZh0tJA_WpvR6Cnj1Ao
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120c471db2964a8fbde051a119e34af206b9e91a6399874b4903f5a9bd1e829e3d40a",
+            "host": "keybase.io",
+            "kid": "0120c471db2964a8fbde051a119e34af206b9e91a6399874b4903f5a9bd1e829e3d40a",
+            "uid": "ad240f1d2b3d51174d230dd024cabf19",
+            "username": "dannycjones"
+        },
+        "service": {
+            "hostname": "hack.sheffield.ac.uk",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.20"
+    },
+    "ctime": 1491851187,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1491851134,
+        "hash": "7d528cf04bcb2c0a705d3c6c91eeaa30509557cd7c9a0c5c8f2ef83896baa29f9726051233902ba65e8d2b465c073503027c76135099e775b20159e60f6c6414",
+        "seqno": 1010778
+    },
+    "prev": "3f4ccf8b71725e9c4fe78d78acd68609f46c0b54aa02629eec92b408d8184cd2",
+    "seqno": 19,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgxHHbKWSo+94FGhGeNK8ga56RpjmYdLSQP1qb0egp49QKp3BheWxvYWTFAwF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYzQ3MWRiMjk2NGE4ZmJkZTA1MWExMTllMzRhZjIwNmI5ZTkxYTYzOTk4NzRiNDkwM2Y1YTliZDFlODI5ZTNkNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzQ3MWRiMjk2NGE4ZmJkZTA1MWExMTllMzRhZjIwNmI5ZTkxYTYzOTk4NzRiNDkwM2Y1YTliZDFlODI5ZTNkNDBhIiwidWlkIjoiYWQyNDBmMWQyYjNkNTExNzRkMjMwZGQwMjRjYWJmMTkiLCJ1c2VybmFtZSI6ImRhbm55Y2pvbmVzIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJoYWNrLnNoZWZmaWVsZC5hYy51ayIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIwIn0sImN0aW1lIjoxNDkxODUxMTg3LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTE4NTExMzQsImhhc2giOiI3ZDUyOGNmMDRiY2IyYzBhNzA1ZDNjNmM5MWVlYWEzMDUwOTU1N2NkN2M5YTBjNWM4ZjJlZjgzODk2YmFhMjlmOTcyNjA1MTIzMzkwMmJhNjVlOGQyYjQ2NWMwNzM1MDMwMjdjNzYxMzUwOTllNzc1YjIwMTU5ZTYwZjZjNjQxNCIsInNlcW5vIjoxMDEwNzc4fSwicHJldiI6IjNmNGNjZjhiNzE3MjVlOWM0ZmU3OGQ3OGFjZDY4NjA5ZjQ2YzBiNTRhYTAyNjI5ZWVjOTJiNDA4ZDgxODRjZDIiLCJzZXFubyI6MTksInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAl7iny0Zt3u9VROuxUCeh6d8g3Jhcg871Zx5+naBeWnXC3NecBE94Z4IgJB3gWrWB5g5CVydshKXr4A7mOarUCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMPyugGeQHbuAMvNQPsldOubOLUWGNtnz9Ibw8T1Ajt3o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dannycjones
+
+==================================================================
+
