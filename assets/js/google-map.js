@@ -2,8 +2,8 @@ function initMap() {
   // Create a map object and specify the DOM element for display.
   var map = new google.maps.Map(document.getElementById('map-div'), {
     center: {
-      lat: 53.381582,
-      lng: -1.481965
+      lat: 53.381256,
+      lng: -1.478921
     },
     scrollwheel: false,
     draggable: false,
@@ -19,24 +19,9 @@ function initMap() {
   var infowindow = new google.maps.InfoWindow();
   var service = new google.maps.places.PlacesService(map);
 
-  service.getDetails({
-    placeId: 'ChIJgT6L4oF4eUgR7WkhyiKVHGE'
-  }, function(place, status) {
-    console.log(place);
-    if (status === google.maps.places.PlacesServiceStatus.OK) {
-      var marker = new google.maps.Marker({
-        map: map,
-        position: place.geometry.location
-      });
-      google.maps.event.addListener(marker, 'click', function() {
-        infowindow.setContent(
-          '<div class="mapInfoWindow"><strong>' + place.name + '</strong><div class="address">' +
-          place.formatted_address + '</div>' + '<div class="view-link"><a target="_blank" ' +
-          'href="' + place.url + '">View on Google Maps</a></div></div>'
-        );
-        infowindow.open(map, this);
-      });
-    }
+  var marker = new google.maps.Marker({
+    map: map,
+    position: map.center
   });
 
   google.maps.event.addListener(map, 'click', function(event) {
